@@ -1,0 +1,13 @@
+def dici():
+    
+    print("estamos viendo contenido de un dicionario por su clave valor:\n",nombre["manuel"],"\n") #imprime solo el contenido de la clave selecionada
+    del (nombre["manuel"]) #funcion para eliminar elemento de un dicionario
+    nombre["nesly"]= {"edad":22,"estudiante":"yes"} # agrega contenido al dicionario
+    print ("estamos viendo el contenido de un dicionario:\n",nombre,"\n") #imprime todo el dicionario
+    def buscar():
+        print("buscar nombre en el dicionario:\n")
+        nombr = input()
+        if(nombr in nombre): print(nombre[nombr]) 
+        else:print("nombre no registrado")  
+    #buscar()   #activar funcion de buscar nombre en el dicionario 
+   
